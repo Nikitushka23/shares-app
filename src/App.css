@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.table-box{
+  margin-bottom: 10px;
+}
+
+.table-block {
+  display: inline-block;
+  width: 90%;
+}
+
+.shares-table tr {
+  height: 8.22vh;
+}
+
+.shares-table tbody{
+  width: 100px;
+}
+
+.shares-table td {
+  width: 9vw;
+}
+
+.search-int {
+  align-items: center;
+  align-content: flex-start;
+}
+
+.share-card-founded {
+  font-size: 1rem;
+  height: 42vh;
+  width: 15vw;
+  margin: 1%;
+  display: inline-block;
+  border: solid black 1px;
+  border-radius: 8px;
+  
+}
+.share-card-founded span {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.page-number{
+  margin-top: -1%;
+  margin-bottom: 0%;
+}
+
+.fat-text {
+  font-weight: 650;
+}
+
+.prev-btn {
+  border: none;
+  outline: none;
+  float: left;
+  height: 94.3vh;
+  width: 5%;
+}
+
+.next-btn {
+  background-color: rgba(185, 185, 185, 0.2);
+  border: none;
+  outline: none;
+  float: right;
+  height: 94.3vh;
+  width: 5%;
+}
+
+.next-btn:hover {
+  background-color: rgba(185, 185, 185, 0.9)
+}
+
+.prev-btn:hover {
+  background-color: rgba(185, 185, 185, 0.9);
+}
+
+.search-bar input {
+  background-color: #ffffff;
+  padding: 4px;
+  outline: none;
+  border: 0.5px solid black;
+  margin: 20px 0 40px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.input-search {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.input-button {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.loader {
+  margin: 20%;
+}
